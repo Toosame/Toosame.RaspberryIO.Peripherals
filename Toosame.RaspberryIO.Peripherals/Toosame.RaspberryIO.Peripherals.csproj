@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Toosame</Authors>
+    <Company>Toosame</Company>
+    <Description>Support device:
+1.TSL2561;
+2.PCA9685 for WaveShare Pan-Tilt-HAT.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unosquare.WiringPi" Version="0.5.1" />
+  </ItemGroup>
+
+</Project>
